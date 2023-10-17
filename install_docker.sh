@@ -10,3 +10,4 @@ stable"
 apt-get update
 apt-get install -y docker-ce
 usermod -aG docker Ubuntu
+chmod 666 /var/run/docker.sock
